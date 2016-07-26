@@ -1,9 +1,9 @@
 # LGTagsView
 
-[![CI Status](http://img.shields.io/travis/于宙/LGTagsView.svg?style=flat)](https://travis-ci.org/于宙/LGTagsView)
-[![Version](https://img.shields.io/cocoapods/v/LGTagsView.svg?style=flat)](http://cocoapods.org/pods/LGTagsView)
-[![License](https://img.shields.io/cocoapods/l/LGTagsView.svg?style=flat)](http://cocoapods.org/pods/LGTagsView)
-[![Platform](https://img.shields.io/cocoapods/p/LGTagsView.svg?style=flat)](http://cocoapods.org/pods/LGTagsView)
+#[![CI Status](http://img.shields.io/travis/于宙/LGTagsView.svg?style=flat)](https://travis-ci.org/于宙/LGTagsView)
+#[![Version](https://img.shields.io/cocoapods/v/LGTagsView.svg?style=flat)](http://cocoapods.org/pods/LGTagsView)
+#[![License](https://img.shields.io/cocoapods/l/LGTagsView.svg?style=flat)](http://cocoapods.org/pods/LGTagsView)
+#[![Platform](https://img.shields.io/cocoapods/p/LGTagsView.svg?style=flat)](http://cocoapods.org/pods/LGTagsView)
 
 ## Example
 
