@@ -1,0 +1,6 @@
+framework module LGTagsView {
+  umbrella header "LGTagsView-umbrella.h"
+
+  export *
+  module * { export * }
+}

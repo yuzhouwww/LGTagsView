@@ -1,0 +1,6 @@
+framework module Pods_LGTagsView_Example {
+  umbrella header "Pods-LGTagsView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
