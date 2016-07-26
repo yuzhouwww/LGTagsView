@@ -22,7 +22,7 @@ pod "LGTagsView"
 
 ## Author
 
-于宙, ryanyu@lagou.com
+于宙, yuzhouwww@gmail.com
 
 ## License
 

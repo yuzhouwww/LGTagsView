@@ -24,7 +24,7 @@ Easily display your tags text with pretty look. Compatible with AutoLayout.
   s.homepage         = 'https://github.com/yuzhouwww/LGTagsView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '于宙' => 'ryanyu@lagou.com' }
+  s.author           = { '于宙' => 'yuzhouwww@gmail.com' }
   s.source           = { :git => 'https://github.com/yuzhouwww/LGTagsView.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/yuzhouwww'
 
@@ -36,7 +36,7 @@ Easily display your tags text with pretty look. Compatible with AutoLayout.
   #   'LGTagsView' => ['LGTagsView/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
