@@ -19,6 +19,9 @@
     self = [super initWithCoder:coder];
     if (self) {
         [self commonInit];
+        if (!_tagBackgroundColor) {
+            _tagBackgroundColor = [UIColor whiteColor];
+        }
         if (!_textColor) {
             _textColor = [UIColor lightGrayColor];
         }
@@ -34,7 +37,7 @@
         _itemSpace = 5.0f;
         _lineSpace = 5.0f;
         _tagPadding = CGPointMake(5.0f, 5.0f);
-        _tagBornerRadius = 3.0f;
+        _tagBorderRadius = 3.0f;
         _tagBorderWidth = 1.0f / [UIScreen mainScreen].scale;
         _tagBorderColor = [UIColor lightGrayColor];
         _tagBackgroundColor = [UIColor whiteColor];
@@ -101,7 +104,7 @@
             if (_tagNeedRoundCorner) {
                 label.layer.cornerRadius = (ceilf(size.height) + _tagPadding.x * 2) * 0.5;
             } else {
-                label.layer.cornerRadius = _tagBornerRadius;
+                label.layer.cornerRadius = _tagBorderRadius;
             }
             
             currentX += ceilf(size.width) + _tagPadding.x * 2 + _itemSpace;
@@ -139,7 +142,7 @@
     label.backgroundColor = _tagBackgroundColor;
     label.layer.borderWidth = _tagBorderWidth;
     label.layer.borderColor = _tagBorderColor.CGColor;
-    label.layer.masksToBounds = _tagBorderWidth > 0;
+    label.layer.masksToBounds = _tagBorderRadius > 0;
     return label;
 }
 
@@ -147,6 +150,8 @@
     return _contentSize;
 }
 
-
+- (CGSize)sizeThatFits:(CGSize)size {
+    return _contentSize;
+}
 
 @end
