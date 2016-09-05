@@ -1,6 +1,6 @@
 {
   "name": "LGTagsView",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Easily display your tags text with pretty look.",
   "description": "Easily display your tags text with pretty look. Compatible with AutoLayout.",
   "homepage": "https://github.com/yuzhouwww/LGTagsView",
@@ -9,15 +9,17 @@
     "file": "LICENSE"
   },
   "authors": {
-    "于宙": "ryanyu@lagou.com"
+    "于宙": "yuzhouwww@gmail.com"
   },
   "source": {
     "git": "https://github.com/yuzhouwww/LGTagsView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "social_media_url": "https://twitter.com/yuzhouwww",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LGTagsView/Classes/**/*"
+  "source_files": "LGTagsView/Classes/**/*",
+  "public_header_files": "LGTagsView/Classes/**/*.h",
+  "frameworks": "UIKit"
 }

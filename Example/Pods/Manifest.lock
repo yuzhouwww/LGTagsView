@@ -1,5 +1,5 @@
 PODS:
-  - LGTagsView (0.1.0)
+  - LGTagsView (0.1.1)
 
 DEPENDENCIES:
   - LGTagsView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LGTagsView: 291d4e3ec013288e6f04589ed82db3c3c66bed88
+  LGTagsView: 3bac390dd0b8d8164405046fa643c8a3011bb3ba
 
 COCOAPODS: 0.39.0
